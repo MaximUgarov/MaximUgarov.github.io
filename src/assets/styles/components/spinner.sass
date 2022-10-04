@@ -1,0 +1,18 @@
+@import "../_vars"
+
+.spinner
+    height: 30px
+    width: 30px
+    margin: 0 auto
+    position: relative
+    animation: rotation 1s infinite linear
+    border-left: 2px solid $color-withe
+    border-bottom: 2px solid $color-withe
+    border-radius: 20px
+
+@keyframes rotation
+    from
+        transform: rotate(0deg)
+
+    to
+        transform: rotate(359deg)
